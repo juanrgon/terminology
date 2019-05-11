@@ -88,7 +88,7 @@ def underlined(text):
     return _apply_ansi_code(AnsiCode.UNDERLINE, non_underlined)
 
 
-def visual_len(text: str) -> int:
+def visual_len(text) -> int:
     """The apparent visual length of this string in a terminal."""
     return len(text) if NO_COLOR else len(_remove_regex("\033\\[[0-9]*m", text))
 
@@ -153,7 +153,7 @@ class StyledText(str):
         return visual_len(self)
 
 
-def _apply_ansi_code(ansi_code: str, text: str):
+def _apply_ansi_code(ansi_code, text):
     if NO_COLOR:
         return StyledText(text)
 
@@ -164,41 +164,41 @@ def _apply_ansi_code(ansi_code: str, text: str):
     return StyledText(start + text + end)
 
 
-def _change_text_color(text: str, color_code: str):
+def _change_text_color(text, color_code):
     """Change the color of text to the given color code."""
     uncolored_fg = _remove_text_colors(text)
     return _apply_ansi_code(color_code, uncolored_fg)
 
 
-def _change_background_color(text: str, color_code: str):
+def _change_background_color(text, color_code):
     """Change the background color of text to the given color code."""
     uncolored_bg = _remove_background_colors(text)
     return _apply_ansi_code(color_code, uncolored_bg)
 
 
-def _remove_background_colors(text: str):
+def _remove_background_colors(text):
     """Remove all background coloring from the given text."""
     return _remove_regex(BACKGROUND_COLORS_REGEX, text)
 
 
-def _remove_bold(text: str):
+def _remove_bold(text):
     """Remove all text modifications from the given text."""
     return _remove_regex(BOLD_REGEX, text)
 
 
-def _remove_text_colors(text: str):
+def _remove_text_colors(text):
     """Remove all foreground coloring from the given text."""
     return _remove_regex(FOREGROUND_COLORS_REGEX, text)
 
 
-def _remove_regex(regex: str, text: str):
+def _remove_regex(regex, text):
     """Remove the given regex from the text."""
     if NO_COLOR:
         return StyledText(text)
     return StyledText(re.sub(regex, "", text))
 
 
-def _remove_underline(text: str):
+def _remove_underline(text):
     """Remove underlining from the given text."""
     return _remove_regex(UNDERLINED_REGEX, text)
 

@@ -2,7 +2,7 @@ from .asap_print import asap_print
 from .clear_line import clear_line
 
 
-def overwrite_line(text: str = ""):
+def overwrite_line(text = ""):
     """
     Overwrite the current line in terminal with text.
 
