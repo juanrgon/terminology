@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "terminology"
+version = "1.0.0"
+description = "An intuitive way to color terminal text"
+authors = ["Juan Gonzalez <jrg2156@gmail.com>"]
+repository = "https://github.com/juanrgon/terminology"
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
