@@ -88,7 +88,7 @@ def underlined(text):
     return _apply_ansi_code(AnsiCode.UNDERLINE, non_underlined)
 
 
-def visual_len(text) -> int:
+def visual_len(text):
     """The apparent visual length of this string in a terminal."""
     return len(text) if NO_COLOR else len(_remove_regex("\033\\[[0-9]*m", text))
 
@@ -148,7 +148,7 @@ class StyledText(str):
     def underlined(self):
         return underlined(self)
 
-    def visual_len(self) -> int:
+    def visual_len(self):
         """The apparent visual length of this string in a terminal."""
         return visual_len(self)
 

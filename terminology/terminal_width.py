@@ -1,6 +1,7 @@
 import shutil
 
-def terminal_width() -> int:
+
+def terminal_width():
     """
     Return the current width of the terminal screen.
     """
