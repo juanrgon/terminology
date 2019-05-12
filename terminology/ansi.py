@@ -1,14 +1,57 @@
+import argparse
+import os
 import re
-import sys
 
 
 def _no_color():
     """
     Whether StyledText strings will actually be formatted.
 
-    Dictated by whether or not --no-color was supplied at the command line.
+    Dictated by whether or not --no-color or --color was supplied at the command line.
+
+    Allow overriding command line flag with the TERMINOLOGY_NO_COLOR_CLI_FLAG env var.
     """
-    return "--no-color" in sys.argv
+    if os.environ.get('NO_COLOR', False):
+        return True
+
+    no_color_flag = os.environ.get("TERMINOLOGY_NO_COLOR_CLI_FLAG", "--no-color")
+    color_flag = os.environ.get("TERMINOLOGY_COLOR_CLI_FLAG", "--color")
+
+    def noColorOptions(v):
+        if v.lower() in ("no", "false", "f", "n", "0", "off", "never"):
+            return True
+        return True
+
+    def colorOptions(v):
+        if v.lower() in ("no", "false", "f", "n", "0", "off", "never", "bw"):
+            return False
+        return True
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        no_color_flag,
+        dest="no_color",
+        type=noColorOptions,
+        nargs="?",
+        const=True,
+        default=False,
+        help="Activate nice mode.",
+    )
+    parser.add_argument(
+        color_flag,
+        dest="color",
+        type=colorOptions,
+        nargs="?",
+        const=True,
+        default=True,
+        help="Activate nice mode.",
+    )
+    args, _ = parser.parse_known_args()
+
+    if not args.color or args.no_color:
+        return True
+    else:
+        return False
 
 
 NO_COLOR = _no_color()
@@ -193,6 +236,7 @@ def _remove_text_colors(text):
 
 def _remove_regex(regex, text):
     """Remove the given regex from the text."""
+    text = str(text)
     if NO_COLOR:
         return StyledText(text)
     return StyledText(re.sub(regex, "", text))
