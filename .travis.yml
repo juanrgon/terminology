@@ -12,6 +12,7 @@ install:
 before_install:
   - pip install poetry
 
-jobs include:
-  - name: tests
-    script: poetry run pytest tests/
+jobs:
+  include:
+    - name: tests
+      script: poetry run pytest tests/
