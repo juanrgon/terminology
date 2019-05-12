@@ -6,9 +6,12 @@ python:
   - "3.6"
   - "3.7"
 
+install:
+  - poetry install
+
 before_install:
   - pip install poetry
 
 jobs include:
   - name: tests
-    script: tox
+    script: poetry run pytest tests/
