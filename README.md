@@ -19,7 +19,7 @@ _Output_
 [coloring]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/coloring.png
  "Coloring"
 
-## Color Background of Text
+## Color Text Background
 
 ```python
 from terminology import on_green, on_yellow, on_red
