@@ -51,4 +51,4 @@ __all__ = [
     "visual_len",
 ]
 
-__version__ = "0.1.0"
+__version__ = "1.0.10"
