@@ -46,6 +46,7 @@ print("- ", underlined("Section i"), '\n')
 ```
 
 _Output_
+
 ![alt text][bold and underline]
 
 [bold and underline]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/bold_and_underline.png
