@@ -3,7 +3,7 @@
 A simple way to color terminal text! ❤️ 💛 💚 💙 💜
 
 
-# Color Text
+## Color Text
 
 ```python
 from terminology import in_red, in_yellow, in_green, in_blue, in_magenta
@@ -19,7 +19,7 @@ _Output_
 [coloring]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/coloring.png
  "Coloring"
 
-# Color Background of Text
+## Color Background of Text
 
 ```python
 from terminology import on_green, on_yellow, on_red
@@ -34,7 +34,7 @@ _Output_
 [background colors]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/background.png
  "Background Colors"
 
-# Emphasize Text with Bold and Underlining
+## Emphasize Text with Bold and Underlining
 
 ```python
 print(in_bold("Chapter 1"))
