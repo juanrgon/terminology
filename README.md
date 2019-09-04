@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/juanrgon/terminology.svg?branch=master)](https://travis-ci.org/juanrgon/terminology)
+
 # Terminology
 
 A simple way to color terminal text! ❤️ 💛 💚 💙 💜
