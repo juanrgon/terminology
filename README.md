@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/juanrgon/terminology.svg?branch=master)](https://travis-ci.org/juanrgon/terminology)
-
 # Terminology
 
-A simple way to color terminal text! ❤️ 💛 💚 💙 💜
+[![Build Status](https://travis-ci.org/juanrgon/terminology.svg?branch=master)](https://travis-ci.org/juanrgon/terminology)
 
+A simple way to color terminal text! ❤️ 💛 💚 💙 💜
 
 ## Color Text
 
@@ -14,7 +13,6 @@ print(in_red("it's"), in_yellow("a"), in_green("double"), in_blue("rainbow"), in
 ```
 
 _Output_
-
 
 ![alt text][coloring]
 
@@ -39,6 +37,8 @@ _Output_
 ## Emphasize Text with Bold and Underlining
 
 ```python
+from terminology import bold, underlined
+
 print(in_bold("Chapter 1"))
 print("- ", underlined("Section i"))
 print("- ", underlined("Section ii"), "\n")
