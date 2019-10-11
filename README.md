@@ -37,7 +37,7 @@ _Output_
 ## Emphasize Text with Bold and Underlining
 
 ```python
-from terminology import bold, underlined
+from terminology import in_bold, underlined
 
 print(in_bold("Chapter 1"))
 print("- ", underlined("Section i"))
