@@ -22,7 +22,7 @@ from .ansi import (
 )
 from .asap_print import asap_print
 from .clear_line import clear_line
-from .overwrite_line import overwrite_line
+from .status import status
 from .terminal_width import terminal_width
 
 __all__ = [
@@ -45,10 +45,10 @@ __all__ = [
     "on_red",
     "on_white",
     "on_yellow",
-    "overwrite_line",
+    "status",
     "terminal_width",
     "underlined",
     "visual_len",
 ]
 
-__version__ = "1.0.11"
+__version__ = "1.0.14"
