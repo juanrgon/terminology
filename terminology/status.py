@@ -2,17 +2,15 @@ from .asap_print import asap_print
 from .clear_line import clear_line
 
 
-def overwrite_line(text=""):
+def status(text=""):
     """
-    Overwrite the current line in terminal with text.
-
-    Meant to be used to create a dynamic status line.
+    Provide a status line.
 
     Usage:
        import time
 
        for seconds in range(10, 0, -1):
-           overwrite_line(f"Liftoff in {seconds}")
+           status(f"Liftoff in {seconds}")
            time.sleep(1)
     """
     clear_line()
