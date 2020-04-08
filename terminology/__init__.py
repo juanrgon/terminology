@@ -1,5 +1,6 @@
 """Module for styling terminal text."""
 from .ansi import (
+    disable,
     in_black,
     in_blue,
     in_bold,
@@ -28,6 +29,7 @@ from .terminal_width import terminal_width
 __all__ = [
     "asap_print",
     "clear_line",
+    "disable",
     "in_black",
     "in_blue",
     "in_bold",

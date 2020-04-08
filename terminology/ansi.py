@@ -9,6 +9,7 @@ NO_COLOR = False
 def disable():
     global NO_COLOR
     original = NO_COLOR
+    NO_COLOR = True
     try:
         yield
     finally:
