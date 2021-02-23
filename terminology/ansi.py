@@ -90,6 +90,11 @@ def underlined(text) -> "StyledText":
     return _apply_ansi_code(AnsiCode.UNDERLINE, non_underlined)
 
 
+def dimmed(text) -> "StyledText":
+    non_dimmed = _remove_bold_or_dim(text)
+    return _apply_ansi_code(AnsiCode.DIM, non_dimmed)
+
+
 def visual_len(text) -> int:
     """The apparent visual length of this string in a terminal."""
     return len(text) if NO_COLOR else len(_remove_regex("\033\\[[0-9]*m", text))
@@ -150,6 +155,9 @@ class StyledText(str):
     def underlined(self) -> "StyledText":
         return underlined(self)
 
+    def dimmed(self) -> "StyledText":
+        return dimmed(self)
+
     def visual_len(self) -> int:
         """The apparent visual length of this string in a terminal."""
         return visual_len(self)
@@ -183,9 +191,9 @@ def _remove_background_colors(text) -> StyledText:
     return _remove_regex(BACKGROUND_COLORS_REGEX, text)
 
 
-def _remove_bold(text) -> StyledText:
+def _remove_bold_or_dim(text) -> StyledText:
     """Remove all text modifications from the given text."""
-    return _remove_regex(BOLD_REGEX, text)
+    return _remove_regex(BOLD_OR_DIM_REGEX, text)
 
 
 def _remove_text_colors(text) -> StyledText:
@@ -211,7 +219,7 @@ ESCAPE_END = "m"
 STYLE_RESET = "\033[0m"
 FOREGROUND_COLORS_REGEX = "\033\\[3[0-9]m"
 BACKGROUND_COLORS_REGEX = "\033\\[4[0-9]m"
-BOLD_REGEX = "\033\\[1m"
+BOLD_OR_DIM_REGEX = "\033\\[[1-2]m"
 UNDERLINED_REGEX = "\033\\[4m"
 INVERTED_REGEX = "\033\\[7m"
 
@@ -236,3 +244,4 @@ class AnsiCode:
     YELLOW_TEXT = "33"
     NORMAL = "0"
     UNDERLINE = "4"
+    DIM = "2"

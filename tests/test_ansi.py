@@ -22,6 +22,7 @@ from terminology import (
     on_white,
     on_yellow,
     underlined,
+    dimmed,
     visual_len,
 )
 
@@ -120,6 +121,11 @@ def test_on_yellow():
 def test_underlined():
     assert underlined("Hello World") == "\x1b[4mHello World\x1b[0m"
     assert underlined("Hello World").underlined() == "\x1b[4mHello World\x1b[0m"
+
+
+def test_dimmed():
+    assert dimmed("Hello World") == "\x1b[2mHello World\x1b[0m"
+    assert dimmed("Hello World").dimmed() == "\x1b[2mHello World\x1b[0m"
 
 
 def test_visual_len():
