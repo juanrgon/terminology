@@ -19,6 +19,7 @@ from .ansi import (
     on_white,
     on_yellow,
     underlined,
+    dimmed,
     visual_len,
 )
 from .asap_print import asap_print
