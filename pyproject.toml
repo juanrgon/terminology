@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "~2.7 || ^3.6"
+python = ">=3.6,<4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
@@ -16,7 +16,13 @@ tox = "^3.9"
 mock = "^3.0"
 toml = "^0.10.0"
 ipdb = "^0.12.3"
+furo = "^2022.4.7"
+Sphinx = "^4.5.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
+
+[tool.poetry.extras]
+mysql = ["mysqlclient"]
+pgsql = ["psycopg2"]
