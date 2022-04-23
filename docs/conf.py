@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
+    "myst_parser"  # Support Markdown docs https://myst-parser.readthedocs.io/
 ]
 
 # Add any paths that contain templates here, relative to this directory.
