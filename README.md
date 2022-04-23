@@ -16,7 +16,7 @@ _Output_
 
 ![alt text][coloring]
 
-[coloring]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/coloring.png
+[coloring]: https://raw.githubusercontent.com/juanrgon/terminology/master/docs/_static/pics/coloring.png
  "Coloring"
 
 ## Color Text Background
@@ -31,7 +31,7 @@ _Output_
 
 ![alt text][background colors]
 
-[background colors]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/background.png
+[background colors]: https://raw.githubusercontent.com/juanrgon/terminology/master/docs/_static/pics/background.png
  "Background Colors"
 
 ## Emphasize Text with Bold and Underlining
@@ -51,5 +51,5 @@ _Output_
 
 ![alt text][bold and underline]
 
-[bold and underline]: https://raw.githubusercontent.com/juanrgon/terminology/master/pics/bold_and_underline.png
+[bold and underline]: https://raw.githubusercontent.com/juanrgon/terminology/master/docs/_static/pics/bold_and_underline.png
  "Bold and Underline"
