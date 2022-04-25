@@ -7,7 +7,7 @@ A simple way to color terminal output! ❤️ 💛 💚 💙 💜
 
 ```{code-block} python
 ---
-caption: use the in_color() functions to color strings
+caption: use the [in_color()](./in_color.md) functions to color strings
 ---
 
 from terminology import in_red, in_yellow, in_green, in_blue, in_magenta

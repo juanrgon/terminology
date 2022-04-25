@@ -1,0 +1,40 @@
+.highlight-red * {
+    color: red!important;
+    font-style: normal!important;
+}
+
+.highlight-yellow * {
+    color: goldenrod!important;
+    font-style: normal!important;
+}
+
+.highlight-green * {
+    color: green!important;
+    font-style: normal!important;
+}
+
+.highlight-blue * {
+    color: blue!important;
+    font-style: normal!important;
+}
+
+.highlight-cyan * {
+    color: cyan!important;
+    font-style: normal!important;
+}
+
+.highlight-magenta * {
+    color: magenta!important;
+    font-style: normal!important;
+}
+
+.highlight-black * {
+    color: black!important;
+    font-style: normal!important;
+}
+
+
+.highlight-white * {
+    color: white!important;
+    font-style: normal!important;
+}
