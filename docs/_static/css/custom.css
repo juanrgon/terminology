@@ -38,3 +38,51 @@
     color: white!important;
     font-style: normal!important;
 }
+
+.highlight-on-red * {
+    color: white;
+    background-color: red!important;
+    font-style: normal!important;
+}
+
+.highlight-on-yellow * {
+    color: white;
+    background-color: goldenrod!important;
+    font-style: normal!important;
+}
+
+.highlight-on-green * {
+    color: white;
+    background-color: green!important;
+    font-style: normal!important;
+}
+
+.highlight-on-blue * {
+    color: white;
+    background-color: blue!important;
+    font-style: normal!important;
+}
+
+.highlight-on-cyan * {
+    color: white;
+    background-color: cyan!important;
+    font-style: normal!important;
+}
+
+.highlight-on-magenta * {
+    color: white;
+    background-color: magenta!important;
+    font-style: normal!important;
+}
+
+.highlight-on-black * {
+    color: white;
+    background-color: black!important;
+    font-style: normal!important;
+}
+
+
+.highlight-on-white * {
+    background-color: white!important;
+    font-style: normal!important;
+}

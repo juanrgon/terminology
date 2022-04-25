@@ -5,9 +5,9 @@ substitutions:
 
 # Coloring strings
 
-## `on_{color}` functions
+## `on_{color}()` functions
 
-Use the `on_{color}` functions to change the text color of a string
+Use the `on_{color}()` functions to change the background color of your text output
 
 ### on_red
 ```{eval-rst}
@@ -21,7 +21,7 @@ caption: Usage
 on_red("Hello world!")
 ```
 
-```{code-block} red
+```{code-block} on-red
 ---
 caption: Output
 ---
@@ -42,7 +42,7 @@ caption: Usage
 on_yellow("Hello world!")
 ```
 
-```{code-block} yellow
+```{code-block} on-yellow
 ---
 caption: Output
 ---
@@ -62,7 +62,7 @@ caption: Usage
 on_green("Hello world!")
 ```
 
-```{code-block} green
+```{code-block} on-green
 ---
 caption: Output
 ---
@@ -82,7 +82,7 @@ caption: Usage
 on_blue("Hello world!")
 ```
 
-```{code-block} blue
+```{code-block} on-blue
 ---
 caption: Output
 ---
@@ -102,7 +102,7 @@ caption: Usage
 on_cyan("Hello world!")
 ```
 
-```{code-block} cyan
+```{code-block} on-cyan
 ---
 caption: Output
 ---
@@ -122,7 +122,7 @@ caption: Usage
 on_magenta("Hello world!")
 ```
 
-```{code-block} magenta
+```{code-block} on-magenta
 ---
 caption: Output
 ---
@@ -142,7 +142,7 @@ caption: Usage
 on_black("Hello world!")
 ```
 
-```{code-block} black
+```{code-block} on-black
 ---
 caption: Output
 ---
@@ -162,7 +162,7 @@ caption: Usage
 on_white("Hello world!")
 ```
 
-```{code-block} white
+```{code-block} on-white
 ---
 caption: Output
 ---

@@ -5,9 +5,9 @@ substitutions:
 
 # Coloring strings
 
-## `in_{color}` functions
+## `in_{color}()` functions
 
-Use the `in_{color}` functions to change the text color of a string
+Use the `in_{color}()` functions to change the text color of a string
 
 ### in_red
 ```{eval-rst}
