@@ -1,0 +1,5 @@
+# Installing
+
+```
+pip install terminology
+```

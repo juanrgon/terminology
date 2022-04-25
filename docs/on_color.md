@@ -1,13 +1,4 @@
----
-substitutions:
-  test_string: "Hello world!"
----
-
-# Coloring strings
-
-## `on_{color}()` functions
-
-Use the `on_{color}()` functions to change the background color of your text output
+# Coloring string backgrounds
 
 ### on_red
 ```{eval-rst}
@@ -18,7 +9,7 @@ Use the `on_{color}()` functions to change the background color of your text out
 caption: Usage
 ---
 
-on_red("Hello world!")
+print(on_red("Hello world!"))
 ```
 
 ```{code-block} on-red
@@ -39,7 +30,7 @@ Hello world!
 caption: Usage
 ---
 
-on_yellow("Hello world!")
+print(on_yellow("Hello world!"))
 ```
 
 ```{code-block} on-yellow
@@ -59,7 +50,7 @@ Hello world!
 caption: Usage
 ---
 
-on_green("Hello world!")
+print(on_green("Hello world!"))
 ```
 
 ```{code-block} on-green
@@ -79,7 +70,7 @@ Hello world!
 caption: Usage
 ---
 
-on_blue("Hello world!")
+print(on_blue("Hello world!"))
 ```
 
 ```{code-block} on-blue
@@ -99,7 +90,7 @@ Hello world!
 caption: Usage
 ---
 
-on_cyan("Hello world!")
+print(on_cyan("Hello world!"))
 ```
 
 ```{code-block} on-cyan
@@ -119,7 +110,7 @@ Hello world!
 caption: Usage
 ---
 
-on_magenta("Hello world!")
+print(on_magenta("Hello world!"))
 ```
 
 ```{code-block} on-magenta
@@ -139,7 +130,7 @@ Hello world!
 caption: Usage
 ---
 
-on_black("Hello world!")
+print(on_black("Hello world!"))
 ```
 
 ```{code-block} on-black
@@ -159,7 +150,7 @@ Hello world!
 caption: Usage
 ---
 
-on_white("Hello world!")
+print(on_white("Hello world!"))
 ```
 
 ```{code-block} on-white

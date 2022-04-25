@@ -1,15 +1,6 @@
----
-substitutions:
-  test_string: "Hello world!"
----
-
 # Coloring strings
 
-## `in_{color}()` functions
-
-Use the `in_{color}()` functions to change the text color of a string
-
-### in_red
+## in_red
 ```{eval-rst}
 .. autofunction:: terminology.in_red
 ```
@@ -18,7 +9,7 @@ Use the `in_{color}()` functions to change the text color of a string
 caption: Usage
 ---
 
-in_red("Hello world!")
+print(in_red("Hello world!"))
 ```
 
 ```{code-block} red
@@ -29,7 +20,7 @@ Hello world!
 ```
 
 
-### in_yellow
+## in_yellow
 ```{eval-rst}
 .. autofunction:: terminology.in_yellow
 ```
@@ -39,7 +30,7 @@ Hello world!
 caption: Usage
 ---
 
-in_yellow("Hello world!")
+print(in_yellow("Hello world!"))
 ```
 
 ```{code-block} yellow
@@ -50,7 +41,7 @@ Hello world!
 ```
 
 
-### in_green
+## in_green
 ```{eval-rst}
 .. autofunction:: terminology.in_green
 ```
@@ -59,7 +50,7 @@ Hello world!
 caption: Usage
 ---
 
-in_green("Hello world!")
+print(in_green("Hello world!"))
 ```
 
 ```{code-block} green
@@ -70,7 +61,7 @@ Hello world!
 ```
 
 
-### in_blue
+## in_blue
 ```{eval-rst}
 .. autofunction:: terminology.in_blue
 ```
@@ -79,7 +70,7 @@ Hello world!
 caption: Usage
 ---
 
-in_blue("Hello world!")
+print(in_blue("Hello world!"))
 ```
 
 ```{code-block} blue
@@ -90,7 +81,7 @@ Hello world!
 ```
 
 
-### in_cyan
+## in_cyan
 ```{eval-rst}
 .. autofunction:: terminology.in_cyan
 ```
@@ -99,7 +90,7 @@ Hello world!
 caption: Usage
 ---
 
-in_cyan("Hello world!")
+print(in_cyan("Hello world!"))
 ```
 
 ```{code-block} cyan
@@ -110,7 +101,7 @@ Hello world!
 ```
 
 
-### in_magenta
+## in_magenta
 ```{eval-rst}
 .. autofunction:: terminology.in_magenta
 ```
@@ -119,7 +110,7 @@ Hello world!
 caption: Usage
 ---
 
-in_magenta("Hello world!")
+print(in_magenta("Hello world!"))
 ```
 
 ```{code-block} magenta
@@ -130,7 +121,7 @@ Hello world!
 ```
 
 
-### in_black
+## in_black
 ```{eval-rst}
 .. autofunction:: terminology.in_black
 ```
@@ -139,7 +130,7 @@ Hello world!
 caption: Usage
 ---
 
-in_black("Hello world!")
+print(in_black("Hello world!"))
 ```
 
 ```{code-block} black
@@ -150,7 +141,7 @@ Hello world!
 ```
 
 
-### in_white
+## in_white
 ```{eval-rst}
 .. autofunction:: terminology.in_white
 ```
@@ -159,12 +150,12 @@ Hello world!
 caption: Usage
 ---
 
-in_white("Hello world!")
+print(in_white("Hello world!"))
 ```
 
 ```{code-block} white
 ---
-caption: Output
+caption: in_white("Hello world!")
 ---
 Hello world!
 ```

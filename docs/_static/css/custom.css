@@ -83,6 +83,7 @@
 
 
 .highlight-on-white * {
+    color: black;
     background-color: white!important;
     font-style: normal!important;
 }

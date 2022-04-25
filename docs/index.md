@@ -79,3 +79,20 @@ print(
 ```
 
 ![mix it up](./_static/pics/mix_it_up.png)
+
+## Contents
+
+```{toctree}
+---
+caption: User Guide
+---
+installing
+```
+
+```{toctree}
+---
+caption: API
+---
+in_color
+on_color
+```
