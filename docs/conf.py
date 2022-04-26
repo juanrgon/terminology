@@ -17,12 +17,12 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'terminology'
-copyright = '2022, Juan Gonzalez'
-author = 'Juan Gonzalez'
+project = "terminology"
+copyright = "2022, Juan Gonzalez"
+author = "Juan Gonzalez"
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.16'
+release = "1.0.16"
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,11 +31,11 @@ release = '1.0.16'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "sphinx.ext.duration",
+    "sphinx.ext.doctest",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.autosummary",
+    "sphinx.ext.intersphinx",
     "myst_parser",  # Support Markdown docs https://myst-parser.readthedocs.io/
 ]
 
@@ -46,12 +46,12 @@ myst_enable_extensions = [
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -59,15 +59,35 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'furo'
+html_theme = "furo"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ['_static']
+html_static_path = ["_static"]
 
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
 html_css_files = [
-    'css/custom.css',
+    "css/custom.css",
 ]
+
+from pygments.lexer import RegexLexer
+from pygments.token import Text, String
+from sphinx.highlighting import lexers
+
+
+class ColoredTextLexer(RegexLexer):
+    name = "ColoredText"
+
+    tokens = {
+        "root": [
+            (r".*\n", String),
+        ]
+    }
+
+
+for l in ["red", "yellow", "green", "blue", "cyan", "magenta", "black", "white"]:
+    lexers[l] = ColoredTextLexer()
+    lexers[f"on-{l}"] = ColoredTextLexer()
+    lexers[f"on_{l}"] = ColoredTextLexer()

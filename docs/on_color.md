@@ -1,6 +1,6 @@
 # Coloring string backgrounds
 
-### on_red
+## on_red
 ```{eval-rst}
 .. autofunction:: terminology.on_red
 ```
@@ -20,7 +20,7 @@ Hello world!
 ```
 
 
-### on_yellow
+## on_yellow
 ```{eval-rst}
 .. autofunction:: terminology.on_yellow
 ```
@@ -41,7 +41,7 @@ Hello world!
 ```
 
 
-### on_green
+## on_green
 ```{eval-rst}
 .. autofunction:: terminology.on_green
 ```
@@ -61,7 +61,7 @@ Hello world!
 ```
 
 
-### on_blue
+## on_blue
 ```{eval-rst}
 .. autofunction:: terminology.on_blue
 ```
@@ -81,7 +81,7 @@ Hello world!
 ```
 
 
-### on_cyan
+## on_cyan
 ```{eval-rst}
 .. autofunction:: terminology.on_cyan
 ```
@@ -101,7 +101,7 @@ Hello world!
 ```
 
 
-### on_magenta
+## on_magenta
 ```{eval-rst}
 .. autofunction:: terminology.on_magenta
 ```
@@ -121,7 +121,7 @@ Hello world!
 ```
 
 
-### on_black
+## on_black
 ```{eval-rst}
 .. autofunction:: terminology.on_black
 ```
@@ -141,7 +141,7 @@ Hello world!
 ```
 
 
-### on_white
+## on_white
 ```{eval-rst}
 .. autofunction:: terminology.on_white
 ```

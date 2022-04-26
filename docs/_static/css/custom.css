@@ -1,89 +1,105 @@
-.highlight-red * {
+.highlight-red .s {
     color: red!important;
     font-style: normal!important;
 }
 
-.highlight-yellow * {
+.highlight-yellow .s {
     color: goldenrod!important;
     font-style: normal!important;
 }
 
-.highlight-green * {
+.highlight-green .s {
     color: green!important;
     font-style: normal!important;
 }
 
-.highlight-blue * {
+.highlight-blue .s {
     color: blue!important;
     font-style: normal!important;
 }
 
-.highlight-cyan * {
+.highlight-cyan .s {
     color: cyan!important;
     font-style: normal!important;
 }
 
-.highlight-magenta * {
+.highlight-magenta .s {
     color: magenta!important;
     font-style: normal!important;
 }
 
-.highlight-black * {
+.highlight-black .s {
     color: black!important;
     font-style: normal!important;
 }
 
 
-.highlight-white * {
+.highlight-white .s {
     color: white!important;
     font-style: normal!important;
 }
 
-.highlight-on-red * {
+.highlight-on-red .s {
     color: white;
     background-color: red!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-yellow * {
+.highlight-on-yellow .s {
     color: white;
     background-color: goldenrod!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-green * {
+.highlight-on-green .s {
     color: white;
     background-color: green!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-blue * {
+.highlight-on-blue .s {
     color: white;
     background-color: blue!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-cyan * {
+.highlight-on-cyan .s {
     color: white;
     background-color: cyan!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-magenta * {
+.highlight-on-magenta .s {
     color: white;
     background-color: magenta!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
-.highlight-on-black * {
+.highlight-on-black .s {
     color: white;
     background-color: black!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 
-.highlight-on-white * {
+.highlight-on-white .s {
     color: black;
     background-color: white!important;
     font-style: normal!important;
+    padding-left: 2px;
+    padding-right: 2px;
 }

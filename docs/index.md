@@ -80,11 +80,10 @@ print(
 
 ![mix it up](./_static/pics/mix_it_up.png)
 
-## Contents
-
 ```{toctree}
 ---
 caption: User Guide
+hidden: true
 ---
 installing
 ```
@@ -92,6 +91,7 @@ installing
 ```{toctree}
 ---
 caption: API
+hidden: true
 ---
 in_color
 on_color
