@@ -17,28 +17,27 @@ def disable():
 
 
 def in_black(text: str) -> "StyledStr":
-    return _change_text_color(text, AnsiCode.BLACK_TEXT)
+    return _change_text_color(text, "30")
 
 
 def in_blue(text: str) -> "StyledStr":
-    return _change_text_color(text, AnsiCode.BLUE_TEXT)
+    return _change_text_color(text, "34")
 
 
 def in_bold(text: str) -> "StyledStr":
-    non_bold = _remove_bold(text)
-    return _apply_ansi_code(AnsiCode.BOLD, non_bold)
+    return _apply_ansi_code("1", _remove_bold(text))
 
 
 def in_cyan(text: str) -> "StyledStr":
-    return _change_text_color(text, AnsiCode.CYAN_TEXT)
+    return _change_text_color(text, "36")
 
 
 def in_green(text: str) -> "StyledStr":
-    return _change_text_color(text, AnsiCode.GREEN_TEXT)
+    return _change_text_color(text, "32")
 
 
 def in_magenta(text: str) -> "StyledStr":
-    return _change_text_color(text, AnsiCode.MAGENTA_TEXT)
+    return _change_text_color(text, "35")
 
 
 def in_red(text: str) -> "StyledStr":

@@ -1,0 +1,745 @@
+'000000':
+  ansi: '16'
+  name: Black
+'00005f':
+  ansi: '17'
+  name: DarkNavy
+  shortcut: false
+'000080':
+  ansi: '4'
+  name: Navy
+'0000af':
+  ansi: '19'
+  name: Neonblue
+'0000d7':
+  ansi: '20'
+  name: Medium blue
+  shortcut: false
+'0000ff':
+  ansi: '21'
+  name: Blue
+'005f00':
+  ansi: '22'
+  name: Royal green
+  shortcut: false
+'005f5f':
+  ansi: '23'
+  name: Blue-green (Seiheki)
+  shortcut: false
+'005f87':
+  ansi: '24'
+  name: Blue sapphire
+  shortcut: false
+'005faf':
+  ansi: '25'
+  name: Azure
+'005fd7':
+  ansi: '26'
+  name: Flickr Blue
+  shortcut: false
+'005fff':
+  ansi: '27'
+  name: Ultramarine blue
+  shortcut: false
+'008000':
+  ansi: '2'
+  name: Green
+'008080':
+  ansi: '6'
+  name: Cyan
+'008700':
+  ansi: '28'
+  name: India green
+'00875f':
+  ansi: '29'
+  name: Pantone
+'008787':
+  ansi: '30'
+  name: Dark cyan
+'0087af':
+  ansi: '31'
+  name: Celadon blue
+'0087d7':
+  ansi: '32'
+  name: Blue cola
+'0087ff':
+  ansi: '33'
+  name: Blueberry
+'00af00':
+  ansi: '34'
+  name: Yellow-green (Color Wheel)
+'00af5f':
+  ansi: '35'
+  name: Asda Green (2002)
+'00af87':
+  ansi: '36'
+  name: Jungle green
+'00afaf':
+  ansi: '37'
+  name: Light sea green
+'00afd7':
+  ansi: '38'
+  name: Pantone
+'00afff':
+  ansi: '39'
+  name: Vivid cerulean
+'00d700':
+  ansi: '40'
+  name: Lime green
+'00d75f':
+  ansi: '41'
+  name: Malachite
+'00d787':
+  ansi: '42'
+  name: UFO Green
+'00d7af':
+  ansi: '43'
+  name: Eucalyptus
+'00d7d7':
+  ansi: '44'
+  name: Medium turquoise
+'00d7ff':
+  ansi: '45'
+  name: Vivid sky blue
+'00ff00':
+  ansi: '46'
+  name: Lime
+'00ff5f':
+  ansi: '47'
+  name: Lemon lime
+'00ff87':
+  ansi: '48'
+  name: Guppie green
+'00ffaf':
+  ansi: '49'
+  name: Medium spring green
+'00ffd7':
+  ansi: '50'
+  name: Sea green (Crayola)
+'00ffff':
+  ansi: '51'
+  name: Aqua
+'080808':
+  ansi: '232'
+  name: Vampire black
+'121212':
+  ansi: '233'
+  name: Squarespace
+'1c1c1c':
+  ansi: '234'
+  name: Eerie black
+'262626':
+  ansi: '235'
+  name: Black chestnut oak (Kurotsurubami)
+'303030':
+  ansi: '236'
+  name: Dark charcoal
+'3a3a3a':
+  ansi: '237'
+  name: Onyx
+'444444':
+  ansi: '238'
+  name: '#444444'
+'4e4e4e':
+  ansi: '239'
+  name: Chrysler Auto Gray Deep
+'585858':
+  ansi: '240'
+  name: Davy's grey
+'5f0000':
+  ansi: '52'
+  name: Blood red
+'5f005f':
+  ansi: '53'
+  name: American purple
+'5f0087':
+  ansi: '54'
+  name: Metallic violet
+'5f00af':
+  ansi: '55'
+  name: Purple
+'5f00d7':
+  ansi: '56'
+  name: Bluebonnet
+'5f00ff':
+  ansi: '57'
+  name: Han purple
+'5f5f00':
+  ansi: '58'
+  name: Antique bronze
+'5f5f5f':
+  ansi: '59'
+  name: Granite gray
+'5f5f87':
+  ansi: '60'
+  name: Dark blue-gray
+'5f5faf':
+  ansi: '61'
+  name: Liberty
+'5f5fd7':
+  ansi: '62'
+  name: Slate blue
+'5f5fff':
+  ansi: '63'
+  name: Very light blue
+'5f8700':
+  ansi: '64'
+  name: Avocado
+'5f875f':
+  ansi: '65'
+  name: Russian green
+'5f8787':
+  ansi: '66'
+  name: Steel Teal
+'5f87af':
+  ansi: '67'
+  name: Silver Lake blue
+'5f87d7':
+  ansi: '68'
+  name: Bleu de France
+'5f87ff':
+  ansi: '69'
+  name: Blueberry
+'5faf00':
+  ansi: '70'
+  name: Green (RYB)
+'5faf5f':
+  ansi: '71'
+  name: Apple
+'5faf87':
+  ansi: '72'
+  name: Mint
+'5fafaf':
+  ansi: '73'
+  name: Verdigris
+'5fafd7':
+  ansi: '74'
+  name: Picton blue
+'5fafff':
+  ansi: '75'
+  name: French sky blue
+'5fd700':
+  ansi: '76'
+  name: Harlequin green
+'5fd75f':
+  ansi: '77'
+  name: Malachite
+'5fd787':
+  ansi: '78'
+  name: UFO Green
+'5fd7af':
+  ansi: '79'
+  name: Eucalyptus
+'5fd7d7':
+  ansi: '80'
+  name: Medium turquoise
+'5fd7ff':
+  ansi: '81'
+  name: Pale Cyan
+'5fff00':
+  ansi: '82'
+  name: Green slime
+'5fff5f':
+  ansi: '83'
+  name: Screamin' Green
+'5fff87':
+  ansi: '84'
+  name: Guppie green
+'5fffaf':
+  ansi: '85'
+  name: Medium spring green
+'5fffd7':
+  ansi: '86'
+  name: Aquamarine
+'5fffff':
+  ansi: '87'
+  name: Aqua
+'626262':
+  ansi: '241'
+  name: Duron Grizzle Gray
+'6c6c6c':
+  ansi: '242'
+  name: Dim gray
+'767676':
+  ansi: '243'
+  name: Sonic silver
+'800000':
+  ansi: '1'
+  name: Maroon
+'800080':
+  ansi: '5'
+  name: Purple
+'808000':
+  ansi: '3'
+  name: Olive
+'808080':
+  ansi: '244'
+  name: Gray
+'870000':
+  ansi: '88'
+  name: Deep red
+'87005f':
+  ansi: '89'
+  name: French plum
+'870087':
+  ansi: '90'
+  name: Mardi Gras
+'8700af':
+  ansi: '91'
+  name: Violet (RYB)
+'8700d7':
+  ansi: '92'
+  name: French violet
+'8700ff':
+  ansi: '93'
+  name: Violet (color wheel)
+'875f00':
+  ansi: '94'
+  name: Porcupine
+'875f5f':
+  ansi: '95'
+  name: Rose taupe
+'875f87':
+  ansi: '96'
+  name: Chinese violet
+'875faf':
+  ansi: '97'
+  name: Deep lilac
+'875fd7':
+  ansi: '98'
+  name: Lavender indigo
+'875fff':
+  ansi: '99'
+  name: Violets Are Blue
+'878700':
+  ansi: '100'
+  name: Heart gold
+'87875f':
+  ansi: '101'
+  name: "Baiko brown (Baik\u014Dcha)"
+'878787':
+  ansi: '102'
+  name: Toyo Ink CF10794
+'8787af':
+  ansi: '103'
+  name: Cool grey
+'8787d7':
+  ansi: '104'
+  name: Ube
+'8787ff':
+  ansi: '105'
+  name: Blueberry
+'87af00':
+  ansi: '106'
+  name: Apple green
+'87af5f':
+  ansi: '107'
+  name: Pale young green onion (Usumoegi)
+'87af87':
+  ansi: '108'
+  name: Dark sea green
+'87afaf':
+  ansi: '109'
+  name: Aqua Blue color (Mizu-iro)
+'87afd7':
+  ansi: '110'
+  name: Light cobalt blue
+'87afff':
+  ansi: '111'
+  name: Parakeet Blue
+'87d700':
+  ansi: '112'
+  name: Sheen green
+'87d75f':
+  ansi: '113'
+  name: Pastel green
+'87d787':
+  ansi: '114'
+  name: Pastel green
+'87d7af':
+  ansi: '115'
+  name: Medium aquamarine
+'87d7d7':
+  ansi: '116'
+  name: Middle blue green
+'87d7ff':
+  ansi: '117'
+  name: Pale Cyan
+'87ff00':
+  ansi: '118'
+  name: Spring Frost
+'87ff5f':
+  ansi: '119'
+  name: Screamin' Green
+'87ff87':
+  ansi: '120'
+  name: Mint green
+'87ffaf':
+  ansi: '121'
+  name: Pale Green
+'87ffd7':
+  ansi: '122'
+  name: Aquamarine
+'87ffff':
+  ansi: '123'
+  name: Electric blue
+'8a8a8a':
+  ansi: '245'
+  name: Philippine gray
+'949494':
+  ansi: '246'
+  name: Spanish gray
+'9e9e9e':
+  ansi: '247'
+  name: Spanish gray
+'a8a8a8':
+  ansi: '248'
+  name: Dark gray (X11)
+'af0000':
+  ansi: '124'
+  name: Mordant red 19
+'af005f':
+  ansi: '125'
+  name: Jazzberry jam
+'af0087':
+  ansi: '126'
+  name: Fandango
+'af00af':
+  ansi: '127'
+  name: Heliotrope magenta
+'af00d7':
+  ansi: '128'
+  name: Vivid mulberry
+'af00ff':
+  ansi: '129'
+  name: Vivid violet
+'af5f00':
+  ansi: '130'
+  name: Light brown
+'af5f5f':
+  ansi: '131'
+  name: "Long spring (season) color (Ch\u014Dshun-iro)"
+'af5f87':
+  ansi: '132'
+  name: Mulberry
+'af5faf':
+  ansi: '133'
+  name: Deep fuchsia
+'af5fd7':
+  ansi: '134'
+  name: Rich lilac
+'af5fff':
+  ansi: '135'
+  name: Lavender indigo
+'af8700':
+  ansi: '136'
+  name: Dark goldenrod
+'af875f':
+  ansi: '137'
+  name: Deer
+'af8787':
+  ansi: '138'
+  name: Cherry blossom mouse (Sakuranezumi)
+'af87af':
+  ansi: '139'
+  name: Opera mauve
+'af87d7':
+  ansi: '140'
+  name: Lavender (floral)
+'af87ff':
+  ansi: '141'
+  name: Lavender (floral)
+'afaf00':
+  ansi: '142'
+  name: Citron
+'afaf5f':
+  ansi: '143'
+  name: Olive green
+'afaf87':
+  ansi: '144'
+  name: Underside of willow leaves (Urahayanagi)
+'afafaf':
+  ansi: '145'
+  name: Silver chalice
+'afafd7':
+  ansi: '146'
+  name: JPMA E 79-70L
+'afafff':
+  ansi: '147'
+  name: Maximum blue purple
+'afd700':
+  ansi: '148'
+  name: Vivid lime green
+'afd75f':
+  ansi: '149'
+  name: June bud
+'afd787':
+  ansi: '150'
+  name: Medium spring bud
+'afd7af':
+  ansi: '151'
+  name: Light moss green
+'afd7d7':
+  ansi: '152'
+  name: Crystal
+'afd7ff':
+  ansi: '153'
+  name: Pale Cornflower Blue
+'afff00':
+  ansi: '154'
+  name: Spring bud
+'afff5f':
+  ansi: '155'
+  name: French lime
+'afff87':
+  ansi: '156'
+  name: Mint green
+'afffaf':
+  ansi: '157'
+  name: Mint green
+'afffd7':
+  ansi: '158'
+  name: Magic mint
+'afffff':
+  ansi: '159'
+  name: Celeste
+'b2b2b2':
+  ansi: '249'
+  name: Beckers Knop 509
+'bcbcbc':
+  ansi: '250'
+  name: Gray (X11 gray)
+'c0c0c0':
+  ansi: '7'
+  name: Silver
+'c6c6c6':
+  ansi: '251'
+  name: Silver sand
+'d0d0d0':
+  ansi: '252'
+  name: American silver
+'d70000':
+  ansi: '160'
+  name: Rosso corsa
+'d7005f':
+  ansi: '161'
+  name: Royal red
+'d70087':
+  ansi: '162'
+  name: Magenta (dye)
+'d700af':
+  ansi: '163'
+  name: Byzantine
+'d700d7':
+  ansi: '164'
+  name: Deep magenta
+'d700ff':
+  ansi: '165'
+  name: Phlox
+'d75f00':
+  ansi: '166'
+  name: Metallic orange
+'d75f5f':
+  ansi: '167'
+  name: Indian red
+'d75f87':
+  ansi: '168'
+  name: Blush
+'d75faf':
+  ansi: '169'
+  name: Super pink
+'d75fd7':
+  ansi: '170'
+  name: Orchid
+'d75fff':
+  ansi: '171'
+  name: Heliotrope
+'d78700':
+  ansi: '172'
+  name: Sumac-dyed (Hajizome)
+'d7875f':
+  ansi: '173'
+  name: Copper (Crayola)
+'d78787':
+  ansi: '174'
+  name: New York pink
+'d787af':
+  ansi: '175'
+  name: Middle purple
+'d787d7':
+  ansi: '176'
+  name: Lavender magenta
+'d787ff':
+  ansi: '177'
+  name: Bright lilac
+'d7af00':
+  ansi: '178'
+  name: Patrinia flowers (Patrinia scabiosaefolia) (Ominaeshi)
+'d7af5f':
+  ansi: '179'
+  name: Sunray
+'d7af87':
+  ansi: '180'
+  name: Tan
+'d7afaf':
+  ansi: '181'
+  name: Pale Chestnut
+'d7afd7':
+  ansi: '182'
+  name: Pink lavender
+'d7afff':
+  ansi: '183'
+  name: Mauve
+'d7d700':
+  ansi: '184'
+  name: Citrine
+'d7d75f':
+  ansi: '185'
+  name: Chinese green
+'d7d787':
+  ansi: '186'
+  name: Lime pulp
+'d7d7af':
+  ansi: '187'
+  name: Gin
+'d7d7d7':
+  ansi: '188'
+  name: Light silver
+'d7d7ff':
+  ansi: '189'
+  name: Pale lavender
+'d7ff00':
+  ansi: '190'
+  name: Arctic lime
+'d7ff5f':
+  ansi: '191'
+  name: Arctic lime
+'d7ff87':
+  ansi: '192'
+  name: Mindaro
+'d7ffaf':
+  ansi: '193'
+  name: Menthol
+'d7ffd7':
+  ansi: '194'
+  name: Nyanza
+'d7ffff':
+  ansi: '195'
+  name: Light cyan
+'dadada':
+  ansi: '253'
+  name: Gainsboro
+'e4e4e4':
+  ansi: '254'
+  name: Caparol Schiefer 9
+'eeeeee':
+  ansi: '255'
+  name: Revell 32164
+'ff0000':
+  ansi: '196'
+  name: Red
+'ff005f':
+  ansi: '197'
+  name: Vivid raspberry
+'ff0087':
+  ansi: '198'
+  name: Flickr Pink
+'ff00af':
+  ansi: '199'
+  name: Fashion fuchsia
+'ff00d7':
+  ansi: '200'
+  name: Hot magenta
+'ff00ff':
+  ansi: '201'
+  name: Fuchsia
+'ff5f00':
+  ansi: '202'
+  name: Vivid orange
+'ff5f5f':
+  ansi: '203'
+  name: Pastel red
+'ff5f87':
+  ansi: '204'
+  name: Brink pink
+'ff5faf':
+  ansi: '205'
+  name: Hot pink
+'ff5fd7':
+  ansi: '206'
+  name: Light deep pink
+'ff5fff':
+  ansi: '207'
+  name: Shocking pink (Crayola)
+'ff8700':
+  ansi: '208'
+  name: TYPO3
+'ff875f':
+  ansi: '209'
+  name: Coral
+'ff8787':
+  ansi: '210'
+  name: Tulip
+'ff87af':
+  ansi: '211'
+  name: Tickle Me Pink
+'ff87d7':
+  ansi: '212'
+  name: Princess Perfume
+'ff87ff':
+  ansi: '213'
+  name: Light magenta
+'ffaf00':
+  ansi: '214'
+  name: Benjamin Moore Mardi Gras Gold
+'ffaf5f':
+  ansi: '215'
+  name: Rajah
+'ffaf87':
+  ansi: '216'
+  name: Pale persimmon (Usugaki)
+'ffafaf':
+  ansi: '217'
+  name: Washed-out crimson (dye) (Arazome)
+'ffafd7':
+  ansi: '218'
+  name: Lavender pink
+'ffafff':
+  ansi: '219'
+  name: Rich brilliant lavender
+'ffd700':
+  ansi: '220'
+  name: Gold
+'ffd75f':
+  ansi: '221'
+  name: Mustard
+'ffd787':
+  ansi: '222'
+  name: Jasmine
+'ffd7af':
+  ansi: '223'
+  name: Light orange
+'ffd7d7':
+  ansi: '224'
+  name: Pale pink
+'ffd7ff':
+  ansi: '225'
+  name: Shampoo
+'ffff00':
+  ansi: '226'
+  name: Yellow
+'ffff5f':
+  ansi: '227'
+  name: Laser lemon
+'ffff87':
+  ansi: '228'
+  name: Pastel yellow
+'ffffaf':
+  ansi: '229'
+  name: Calamansi
+'ffffd7':
+  ansi: '230'
+  name: Cream
+'ffffff':
+  ansi: '231'
+  name: White
